@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -34,7 +35,7 @@ namespace Iglesia
                     var data = new System.Text.StringBuilder();
                     data.AppendLine($"Nombre: {parroquia.nombre}");
                     data.AppendLine($"Direccion: {parroquia.direccion}");
-                    Console.WriteLine(parroquia.nombre);
+                    Debug.WriteLine(data);
                 }
             }
         }

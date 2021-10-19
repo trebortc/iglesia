@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Iglesia.Model\IglesiaModel.csproj" />
+    <ProjectReference Include="..\IglesiaData\IglesiaData.csproj" />
   </ItemGroup>
 
 </Project>

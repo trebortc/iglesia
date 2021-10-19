@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iglesia", "Iglesia\Iglesia.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IglesiaModel", "Iglesia.Model\IglesiaModel.csproj", "{B295259A-28D6-42EF-B0EB-923D78DE6FFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IglesiaData", "IglesiaData\IglesiaData.csproj", "{F96038F4-7756-44C4-9DFD-822BEA57FF67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B295259A-28D6-42EF-B0EB-923D78DE6FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B295259A-28D6-42EF-B0EB-923D78DE6FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B295259A-28D6-42EF-B0EB-923D78DE6FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96038F4-7756-44C4-9DFD-822BEA57FF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96038F4-7756-44C4-9DFD-822BEA57FF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96038F4-7756-44C4-9DFD-822BEA57FF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96038F4-7756-44C4-9DFD-822BEA57FF67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
