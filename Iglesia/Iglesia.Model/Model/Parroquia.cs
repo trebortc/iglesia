@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Iglesia.Model.Model
+namespace IglesiaModel.Model
 {
     public class Parroquia
     {
-        public int id { get; set; }
-        public string nombre { get; set; }
-        public string direccion { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Direccion { get; set; }
     }
 }
