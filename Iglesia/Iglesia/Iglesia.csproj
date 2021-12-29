@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bautizo\Bautizo.csproj" />
     <ProjectReference Include="..\Iglesia.Model\IglesiaModel.csproj" />
     <ProjectReference Include="..\IglesiaData\IglesiaData.csproj" />
   </ItemGroup>

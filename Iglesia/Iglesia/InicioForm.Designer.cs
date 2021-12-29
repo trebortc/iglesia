@@ -1,7 +1,7 @@
 ﻿
 namespace Iglesia
 {
-    partial class Form1
+    partial class InicioForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,13 +30,23 @@ namespace Iglesia
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // InicioForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "InicioForm";
+            this.Text = "Sistema - San Antonio de Padua";
+            this.Load += new System.EventHandler(this.InicioForm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+        private System.Windows.Forms.ToolStripMenuItem InicioMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem AcercaDeMenuItem;
     }
 }
 
